@@ -1,22 +1,15 @@
 import React from 'react';
-
 export default function Skills() {
     const skills = [
-        { name: 'React', level: '70%' },
-        { name: 'JavaScript', level: '65%' },
-        { name: 'HTML/CSS', level: '80%' },
-        { name: 'UI/UX Design', level: '85%' },
-        { name: 'Tailwind CSS', level: '85%' },
-        { name: 'NodeJS', level: '75%' },
-        { name: 'Database', level: '70%' },
-        { name: 'HBS', level: '80%' },
-        // Add more skills as needed
+        { name: 'Займатись фігнею', level: '90%' },
+        { name: 'Discord.js', level: '55%' },
+        { name: 'HTML/CSS', level: '50%' },
+        { name: 'Minecraft Development', level: '65%' },
     ];
-
     return (
         <div className="max-w-7xl mx-auto px-4 py-10">
             {/* Skills Section with Graphical Representation */}
-            <h2 className="text-3xl font-semibold mb-5">Skills</h2>
+            <h2 className="text-3xl font-semibold mb-5">Можливості</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
                 {skills.map((skill, i) => (
                     <div key={i} className="bg-gray-900 p-4 rounded-md">
